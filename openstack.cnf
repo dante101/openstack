@@ -1,0 +1,8 @@
+[mysqld]
+bind-address = 10.178.6.108
+
+default-storage-engene = innodb
+innodb_file_per_table = on
+max-connections = 4096
+collation-server = utf8_general_cli
+character-set-server = utf8
